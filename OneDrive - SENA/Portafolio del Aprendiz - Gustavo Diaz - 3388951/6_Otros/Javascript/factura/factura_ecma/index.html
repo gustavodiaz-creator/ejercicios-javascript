@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulación de Factura</title>
+</head>
+<body>
+    <h1>Sistema de Facturación</h1>
+    
+    <h3>Datos del Cliente</h3>
+    <form>
+        <input type="text" id="idCliente" placeholder="Identificación"><br><br>
+        <input type="text" id="nombreCliente" placeholder="Nombres"><br><br>
+        <input type="text" id="telefonoCliente" placeholder="Teléfono"><br><br>
+
+        <h3>Datos del Producto</h3>
+        <input type="text" id="nombreProducto" placeholder="Nombre del producto"><br><br>
+        <input type="text" id="valorUnitario" placeholder="Valor unitario"><br><br>
+        <input type="text" id="cantidad" placeholder="Cantidad"><br><br>
+
+        <input type="button" value="Generar Factura" onclick="calcularFactura()">
+    </form>
+    
+   <script src="js/main.js"></script>
+</body>
+</html>

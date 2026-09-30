@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="css/style.css"
+</head>
+<body>
+    <div class="contenedor">
+
+        <h1>Calculo del IMC</h1>
+
+        <form>
+            <label>Peso (kg):</label><br>
+            <input type="text" id="peso" placeholder="Ej: 70"><br><br>
+
+            <label>Altura (m):</label><br>
+            <input type="text" id="altura" placeholder="Ej: 1.70"><br><br>
+
+            <label>Edad:</label><br>
+            <input type="text" id="edad" placeholder="Ej: 30"><br><br>
+
+            <label>Sexo (F / M):</label><br>
+            <input type="text" id="sexo" placeholder="M o F"><br><br>
+
+            <label>Estas emabarazada) (Si / No):</label><br>
+            <input type="text" id="embarazo" placeholder="solo si eres mujer"><br><br>
+
+            <input type="button" value="Calcular IMC" onclick="calcularIMC()"
+        </form>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
